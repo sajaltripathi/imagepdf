@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/vector"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Document outline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,24 H62 L78,40 V84 H34 Z" />
+    <path
+        android:fillColor="#DDDDDD"
+        android:pathData="M62,24 L78,40 H62 Z" />
+    <!-- Simple picture glyph inside the document -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M40,50 H70 V76 H40 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,73 L52,62 L58,68 L64,58 L67,73 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,57 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>

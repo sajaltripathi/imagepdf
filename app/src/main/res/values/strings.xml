@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Image to PDF</string>
+    <string name="select_images">Select Images</string>
+    <string name="convert_to_pdf">Convert to PDF</string>
+    <string name="empty_state">No images selected yet.\nTap "Select Images" to begin.</string>
+    <string name="pdf_saved">PDF saved successfully.</string>
+    <string name="pdf_error">Failed to create PDF: %1$s</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="remove">Remove</string>
+    <string name="page_number">Page %1$d</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        INTENTIONALLY NO <uses-permission> ELEMENTS.
+        - No android.permission.INTERNET  -> the app cannot make network requests.
+        - No READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE -> all file access goes
+          through the system file picker and "Save As" dialog (Storage Access
+          Framework), so the app only ever touches files the user explicitly picks.
+    -->
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImageToPDF">
+
+        <!--
+            allowBackup="false" disables both cloud (Auto Backup) and
+            device-to-device transfer backup of this app's data on all
+            supported API levels.
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ImageToPDF">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
